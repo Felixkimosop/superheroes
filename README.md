@@ -1,24 +1,57 @@
 # README
+#### Video Link
+https://drive.google.com/file/d/1GX3UHaADv0MVRU5mBruvsqU90Bd6MHF4/view
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## SuperHeroes
 
-Things you may want to cover:
+Code Challenge Superheroes is a web application that allows users to browse and search for information about their favorite superheroes.
 
-* Ruby version
+* Getting Started
 
-* System dependencies
+### Prerequisites
+Ruby 2.7.2
+Rails 6.1.4
 
-* Configuration
 
-* Database creation
+-- Installing
+#### Clone the repository
+git clone https://github.com/OsteenK/Code-Challenge-Superheroes.git
 
-* Database initialization
+#### Install dependencies
+1. cd code-challenge-Superheroes
 
-* How to run the test suite
+2. bundle install
+3. Create the database
 
-* Services (job queues, cache servers, search engines, etc.)
+    * rails db:create
+    * rails db:migrate
 
-* Deployment instructions
+#### Running
+Start the server
 
-* ...
+ * rails s
+Open the application in a web browser
+
+http://localhost:3000/
+
+#### Testing
+To run the tests:
+
+* postman
+
+
+
+*** Built With ***
+1. Ruby on Rails
+2. SqlLite
+
+
+#### Authors
+Kimosop Felix
+
+
+#### License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+#### Video Link
+https://drive.google.com/file/d/1GX3UHaADv0MVRU5mBruvsqU90Bd6MHF4/view
